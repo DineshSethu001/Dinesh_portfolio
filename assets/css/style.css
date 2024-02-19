@@ -1,0 +1,145 @@
+:root {
+  --dark--primary: #1b1f24;
+  --primary--color: #12bdff;
+  --secondary--color: #f8de22;
+  --third-color: #feda75;
+  --dark-light: #22282f;
+}
+
+.header-section {
+  background: var(--dark--primary);
+}
+
+.homeLogo {
+  color: var(--primary--color);
+  letter-spacing: 2px;
+  transition: .5s;
+}
+
+.homeLogo span {
+  color: white;
+  transition: .5s;
+}
+
+.homeLogo:hover {
+  color: white;
+  transition: 1s;
+}
+
+.homeLogo:hover span {
+  color: var(--primary--color);
+  transition: 1s;
+}
+
+.header-section ul {
+  margin: 0;
+}
+
+.header-section li {
+  padding: 5px 10px;
+}
+
+.header-section ul li a {
+  color: white;
+}
+
+.header-section ul li a:hover {
+  color: var(--primary--color);
+}
+
+.header-section .navbar-toggler {
+  border: none;
+}
+
+.header-section .navbar-toggler-icon {
+  filter: invert();
+}
+
+/* main Section */
+.hero-section {
+  background: var(--dark--primary);
+  padding: 50px 0;
+}
+
+ul.social-icons {
+  list-style: none;
+  margin: 20px -13px;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 15px;
+}
+
+.social-icons li>a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* About section */
+
+.about-section {
+  background-color: var(--dark-light);
+  padding: 50px 0;
+  color: #fff;
+}
+
+.about-section h2 span,
+.work-section h2 span {
+  color: var(--primary--color);
+}
+
+.about-section p {
+  font-size: 18px;
+}
+
+/*  work section */
+
+.work-section {
+  background-color: var(--dark--primary);
+  padding: 50px 0;
+  color: white;
+}
+
+.work-section img {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* contact section */
+.contact-section {
+  padding: 50px 0;
+  background-color: var(--dark-light);
+  color: white;
+  text-align: center;
+}
+
+.contact-section h2 span {
+  color: var(--primary--color);
+}
+
+.data-entry .form-control {
+  background: #c4c4c4;
+}
+
+.data-entry textarea {
+  resize: none;
+}
+
+/* footer part */
+
+footer {
+  background-color: var(--dark--primary);
+  color: grey;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary--color);
+}

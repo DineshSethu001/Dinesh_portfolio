@@ -1,0 +1,225 @@
+:root {
+  --dark--primary: #1b1f24;
+  --primary--color: #12bdff;
+  --secondary--color: #f8de22;
+  --third-color: #feda75;
+  --dark-light: #22282f;
+}
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--dark--primary);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+header .homeLogo {
+  color: var(--primary--color);
+  letter-spacing: 2px;
+}
+
+header .homeLogo span {
+  color: white;
+}
+
+header .homeLogo:hover {
+  color: white;
+}
+header .homeLogo:hover span {
+  color: var(--primary--color);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: var(--primary--color);
+}
+
+/* main Section */
+main .hero-section {
+  background-color: var(--dark--primary);
+}
+.hero-section,
+.about-section {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+ul.social-icons {
+  list-style: none;
+  margin: 20px -13px;
+  display: flex;
+}
+.social-icons li {
+  margin-right: 15px;
+}
+.social-icons li > a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero-section__desc {
+  margin: 20px 0;
+  color: #c4c4c4;
+}
+.hero-btn button {
+  margin-right: 1rem;
+}
+/* buttons */
+.btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+}
+.btn-dark-outlined {
+  border-radius: 5px;
+  font-family: 600;
+  color: var(--primary--color);
+  background: var(--dark--primary);
+  border: 2px solid var(--primary--color);
+}
+.btn-dark-outlined:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--primary--color);
+}
+
+.btn.btn-primary {
+  background-color: rgb(19, 4, 136);
+  font-weight: 600;
+  color: #c4c4c4;
+}
+
+.btn.btn-primary:hover {
+  color: white;
+  background-color: var(--primary--color);
+}
+
+/* About section */
+
+.about-section {
+  background-color: var(--dark-light);
+  padding: 30px 60px;
+}
+.about-section--desc {
+  padding: 20px;
+  max-width: 450px;
+  margin: 10px;
+}
+.about-section--desc h4 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.about-section--desc h4 > span {
+  color: var(--primary--color);
+}
+.about-section--desc ul {
+  list-style: none;
+  margin: 20px 0;
+}
+.about-section--desc li {
+  margin-bottom: 8px;
+  color: grey;
+}
+.about-section--desc li > a {
+  text-decoration: none;
+  color: gray;
+}
+.about-section--desc li > a:hover {
+  color: var(--primary--color);
+}
+.about-section--desc li > strong {
+  color: whitesmoke;
+}
+/*  work section */
+
+.work-section {
+  background-color: var(--dark--primary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.work-section h4 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.work-section h4 > span {
+  color: var(--primary--color);
+}
+.work-section__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.work-container {
+  margin: 10px;
+}
+.work-container img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* contact section */
+
+.contact-section {
+  padding: 40px;
+  background-color: var(--dark-light);
+  color: white;
+  text-align: center;
+}
+.contact-section h4 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.contact-section form input,
+textarea {
+  padding: 5px 10px;
+  outline: none;
+  width: 350px;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.contact-section span {
+  color: var(--primary--color);
+}
+/* footer part */
+
+footer {
+  background-color: var(--dark--primary);
+  color: grey;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: var(--primary--color);
+}
